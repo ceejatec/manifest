@@ -7,7 +7,7 @@
             "jenkins_server": "server.jenkins.couchbase.com",
             "jenkins_job": "python-tool-build",
             "do-build": false,
-            "keep_git": true,
+            "create_source_tarball": false,
             "platforms": ["darwin", "darwin:arm64", "linux", "linux:aarch64", "linux:x64-musl", "windows"]
         }
     }
